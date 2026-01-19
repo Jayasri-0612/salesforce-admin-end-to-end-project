@@ -1,6 +1,66 @@
-# Fields and Formulas
+# Fields and Formula Fields
 
-This section covers the important fields and formula fields used in the project
-to calculate service cost, priority indicators, and service duration.
+This section documents the important fields and formula fields used in the
+Smart Service & Sales Management System (SSSMS).
 
-Formula fields help automate calculations and maintain data accuracy without manual effort.
+---
+
+## Formula Fields
+
+### 1. Technician Assignment – Total Cost
+
+**Object:** Technician_Assignment__c  
+**Field Type:** Formula (Currency)
+
+**Formula:**
+Hours_Worked__c * Hourly_Rate__c
+
+
+**Purpose:**  
+Automatically calculates the cost of technician work.
+
+---
+
+### 2. Service Request – Is High Priority?
+
+**Object:** Service_Request__c  
+**Field Type:** Formula (Checkbox)
+
+**Formula:**
+IF(Priority__c = 'High', TRUE, FALSE)
+
+
+**Purpose:**  
+Identifies high priority service requests for reporting and automation.
+
+---
+
+### 3. Service Request – Service Duration (Days)
+
+**Object:** Service_Request__c  
+**Field Type:** Formula (Number)
+
+**Formula:**
+Closed_Date__c - CreatedDate
+
+**Purpose:**  
+Calculates the total number of days taken to complete a service request.
+
+---
+
+## Key Non-Formula Fields
+
+### Service_Request__c
+- Service Cost (Currency)
+- Status (Picklist)
+- Priority (Picklist)
+- Closed Date (Date)
+- Technician (Lookup User)
+
+### Technician_Assignment__c
+- Hours Worked (Number)
+- Hourly Rate (Currency)
+
+
+
+
