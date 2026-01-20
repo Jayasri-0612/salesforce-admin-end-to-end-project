@@ -20,6 +20,7 @@ ISBLANK(Service_Cost__c)
 
 **Error Message:**  
 Service Cost must be entered before closing the request.
+![Validation rule](../Screenshots/Screenshot%202026-01-20%20083026.png)
 
 ---
 
@@ -38,4 +39,6 @@ ISBLANK(Technician__c)
 
 **Error Message:**  
 Technician must be assigned for High Priority service requests.
+
+![Validation rule](../Screenshots/Screenshot%202026-01-20%20082951.png)
 
