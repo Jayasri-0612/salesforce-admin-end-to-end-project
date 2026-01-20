@@ -13,9 +13,12 @@ to ensure users only access data relevant to their roles.
 | Service_Request__c | Private |
 | Technician_Assignment__c | Controlled by Parent |
 
+![users](../Screenshots/Screenshot%202026-01-20%20083620.png)
+
 ---
 
-## Profiles
+## Profiles and Users
+![users-photo](../Screenshots/Screenshot%202026-01-20%20083529.png)
 
 ### Admin Profile
 - Full access to all objects and records
@@ -25,11 +28,14 @@ to ensure users only access data relevant to their roles.
 - Read and Create Service Requests
 - Edit own Service Requests
 - No delete access
+  ![users](../Screenshots/Screenshot%202026-01-20%20084040.png)
+  ![users](../Screenshots/Screenshot%202026-01-20%20084414.png)
 
 ### Technician Profile
 - Read-only access to Accounts
 - Edit access to Technician Assignments
 - Limited access to Service Requests
+  ![users](../Screenshots/Screenshot%202026-01-20%20084530.png)
 
 ---
 
