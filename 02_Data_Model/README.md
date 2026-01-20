@@ -71,6 +71,36 @@ Tracks payments for completed services.
 
 ---
 
-## Why Master-Detail?
-- Enables Roll-Up Summary fields
-- Child records inherit security from the parent
+
+
+## Service_Request__c Object
+
+Represents customer service tickets.
+
+![Service Request Object](../Screenshots/Screenshot%202026-01-19%20085746.png)
+
+---
+
+## Service_Request Custom Object and their fields.
+
+![Service Request Object](../Screenshots/Screenshot%202026-01-19%20085857.png)
+---
+
+## Technician Assignment Custom Object and their fields.
+
+![Service Request Object](../Screenshots/Screenshot%202026-01-19%20085951.png)
+
+---
+
+## Payment Object and their fields.
+
+![Service Request Object](../Screenshots/Screenshot%202026-01-19%20090030.png)
+
+---
+
+## Relationship Between Objects.
+
+![Service Request Object](../Screenshots/Screenshot%202026-01-19%20091137.png)
+
+
+
