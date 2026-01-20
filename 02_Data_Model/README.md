@@ -34,6 +34,9 @@ Represents customer service tickets.
 - Service Cost (Currency)
 - Technician (Lookup User)
 - Closed Date (Date)
+  ## Service_Request Custom Object and their fields.
+
+![Service Request Object](../Screenshots/Screenshot%202026-01-19%20085857.png)
 
 ---
 
@@ -47,7 +50,9 @@ Tracks technician work performed for a service request.
 - Hours Worked (Number)
 - Hourly Rate (Currency)
 - Total Cost (Formula)
+## Technician Assignment Custom Object and their fields.
 
+![Service Request Object](../Screenshots/Screenshot%202026-01-19%20085951.png)
 ---
 
 ### Payment__c
@@ -58,6 +63,9 @@ Tracks payments for completed services.
 - Service Request (Lookup Service_Request__c)
 - Amount Paid (Currency)
 - Payment Status (Picklist: Pending, Paid)
+  ## Payment Object and their fields.
+
+![Service Request Object](../Screenshots/Screenshot%202026-01-19%20090030.png)
 
 ---
 
@@ -69,38 +77,20 @@ Tracks payments for completed services.
 | Service_Request__c | Technician_Assignment__c | Master-Detail |
 | Service_Request__c | Payment__c | Lookup |
 
----
-
-
-
-## Service_Request__c Object
-
-Represents customer service tickets.
-
-![Service Request Object](../Screenshots/Screenshot%202026-01-19%20085746.png)
-
----
-
-## Service_Request Custom Object and their fields.
-
-![Service Request Object](../Screenshots/Screenshot%202026-01-19%20085857.png)
----
-
-## Technician Assignment Custom Object and their fields.
-
-![Service Request Object](../Screenshots/Screenshot%202026-01-19%20085951.png)
-
----
-
-## Payment Object and their fields.
-
-![Service Request Object](../Screenshots/Screenshot%202026-01-19%20090030.png)
-
----
-
 ## Relationship Between Objects.
 
 ![Service Request Object](../Screenshots/Screenshot%202026-01-19%20091137.png)
+
+---
+
+
+
+## Objects 
+
+
+![Service Request Object](../Screenshots/Screenshot%202026-01-19%20085746.png)
+
+
 
 
 
