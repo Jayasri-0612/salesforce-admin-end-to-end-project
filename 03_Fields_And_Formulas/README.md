@@ -16,7 +16,7 @@ Smart Service & Sales Management System (SSSMS).
 Hours_Worked__c * Hourly_Rate__c
 
 
-![Technician Assignment Forumala fileds](../Screenshots/Screenshot%202026-01-19%20085857.png)
+![Technician Assignment Forumala fileds](../Screenshots/Screenshot%202026-01-20%20081952.png)
 
 
 **Purpose:**  
@@ -35,6 +35,7 @@ IF(Priority__c = 'High', TRUE, FALSE)
 
 **Purpose:**  
 Identifies high priority service requests for reporting and automation.
+![Technician Assignment Forumala fileds](../Screenshots/Screenshot%202026-01-20%20082145.png)
 
 ---
 
@@ -48,6 +49,7 @@ Closed_Date__c - CreatedDate
 
 **Purpose:**  
 Calculates the total number of days taken to complete a service request.
+![Technician Assignment Forumala fileds](../Screenshots/Screenshot%202026-01-20%20082113.png)
 
 ---
 
