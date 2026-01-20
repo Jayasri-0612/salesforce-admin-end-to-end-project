@@ -16,6 +16,9 @@ Smart Service & Sales Management System (SSSMS).
 Hours_Worked__c * Hourly_Rate__c
 
 
+![Technician Assignment Forumala fileds](../Screenshots/Screenshot%202026-01-19%20085857.png)
+
+
 **Purpose:**  
 Automatically calculates the cost of technician work.
 
