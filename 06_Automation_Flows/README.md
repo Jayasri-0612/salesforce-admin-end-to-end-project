@@ -17,6 +17,9 @@ and reduce manual effort.
 
 **Business Benefit:**  
 Ensures consistent service closure and automatic payment tracking.
+![screen flow](../Screenshots/Screenshot%202026-01-20%20085522.png)
+
+
 
 ---
 
@@ -32,6 +35,9 @@ Ensures consistent service closure and automatic payment tracking.
 
 **Business Benefit:**  
 Improves user experience and reduces data entry errors.
+![users](../Screenshots/Screenshot%202026-01-20%20085819.png)
+
+
 
 ---
 
@@ -45,3 +51,6 @@ Improves user experience and reduces data entry errors.
 
 **Business Benefit:**  
 Prevents service delays and ensures timely resolution of requests.
+![users](../Screenshots/Screenshot%202026-01-20%20085706.png)
+
+
